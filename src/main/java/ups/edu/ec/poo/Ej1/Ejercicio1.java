@@ -19,6 +19,8 @@ public class Ejercicio1 {
 
         Estudiante[] estudiantes = { juan, maria };
 
+
+
         for (Estudiante estudiante : estudiantes) {
             System.out.println("Estudiante: " + estudiante.getNombre() + " " + estudiante.getApellido());
             System.out.println("Cédula: " + estudiante.getCedula());
